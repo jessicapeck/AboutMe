@@ -1,0 +1,88 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    background-color: forestgreen;
+}
+h2{
+    background-color: greenyellow;
+}
+h3{
+    text-align: center;
+    color: darkgreen;
+    border-style: dotted;
+}
+
+th, td {
+    padding: 20px;
+    text-align: center;
+}
+
+tr {
+    background: lightgrey;
+    border-bottom: 1px solid white;
+    margin-bottom: 5px;
+}
+
+th {
+    background: darkolivegreen;
+    font-size: 20px;
+}
+
+footer{
+    background-color: beige;
+}
+
+button{
+    font-size: 5px;
+}
+
+
+.page-links{
+    background-color: lightgreen;
+    text-align: center;
+}
+
+
+
+.button{
+    color: white;
+     font-size: 20px; 
+     line-height: 20px; 
+     padding: 10px; 
+     border-radius: 10px;
+     font-weight: normal;
+     background-image: linear-gradient(to right, rgb(100, 168, 111) 0%, rgb(65, 130, 34) 50%, rgb(7, 65, 16) 100%); 
+     box-shadow: black 5px 5px 15px 5px; 
+     border-width: 2px ;
+     border-color: solid rgb(65, 130, 34); 
+     display: inline-block;
+}
+
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 33.33%;
+    padding: 50px;
+}
+
+#feedback{
+    font-style: italic;
+}
+
+#easter-egg{
+    height: 200px;
+}
+
+#gradient{
+    height: 150px;
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+}
+
+#thanks-for-feedback{
+    color: black;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18
+}
