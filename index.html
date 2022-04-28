@@ -3,6 +3,8 @@
 <html>
     <head>
         <link href="./styles.css" rel="stylesheet">
+        <script src="./script.js"></script>
+
         <title>About Me</title>
 
         <div class="page-links">
@@ -17,7 +19,7 @@
         <button style="float:right" type="button" onclick="document.getElementById('easter-egg').style.display='block'">Click Me!</button>
         <img id="easter-egg" style="display:none" src="./images/easter-egg.png">
 
-        <h1>Jess Peck</h1>
+        <h1 id="name" onmouseenter="changeNameColor()">Jess Peck</h1>
 
         <h2>A bit about me...</h2>
         <p>Hi! My name is Jess and I am a Year 12 student in the UK.</p>
